@@ -1,5 +1,5 @@
 # SpreeSku
-Use this gem to automatically generate SKUs than allow you to uniquely identify your products.<br/>
+Use this gem to automatically generate SKUs that allow you to uniquely identify your products.<br/>
 Developed by VeroLa Srl.
 
 ## Usage
