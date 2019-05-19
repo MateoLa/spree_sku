@@ -3,26 +3,21 @@ Use this gem to automatically generate SKUs than allow you to uniquely identify 
 Developed by VeroLa Srl.
 
 ## Usage
-How to use my plugin.
+If you don't modify spree use this gem directly. In case you overrides the new action for any product or variant controller, assign the sku to your object by: "@product.sku = generate_sku" or "@variant.sku = generate_sku" when corresponds.
 
 ## Installation
 In order to use this gem you need to install spree first.
 
 Add this line to your application's Gemfile:
+(add it after the line "gem 'spree',...")
 
 ```ruby
-gem 'sss', github: 'MateoLa/sss'
+gem 'spree_sku', github: 'MateoLa/spree_sku'
 ```
-(Need to be added after "gem 'spree',...")
 
 Then execute:
 ```bash
 $ bundle install
-```
-
-And finally run:
-```rails
-$ rails g sss:install
 ```
 
 ## License
