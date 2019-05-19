@@ -8,7 +8,7 @@ If you don't modify spree use this gem directly. In case you overrides the new a
 ## Installation
 In order to use this gem you need to install spree first.
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile:<br/>
 (add it after the line "gem 'spree',...")
 
 ```ruby
