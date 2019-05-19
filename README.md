@@ -3,7 +3,8 @@ Use this gem to automatically generate SKUs that allow you to uniquely identify 
 Developed by VeroLa Srl.
 
 ## Usage
-If you don't modify spree use this gem directly. In case you overrides the new action for any product or variant controller, assign the sku to your object by: "@object.sku = generate_sku" (ex. "@variant.sku = generate_sku") in the new action of the controller you are overriding.
+If you don't modify spree use this gem directly.
+In case you overrides the new action for any product or variant controller, add "include SpreeSku::SkuGeneratorHelper" and assign the sku to your object by: "@object.sku = generate_sku" (ex. "@variant.sku = generate_sku") in the new action of the controller you are overriding.
 
 ## Installation
 In order to use this gem you need to install spree first.
