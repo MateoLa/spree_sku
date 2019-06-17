@@ -4,7 +4,7 @@ Identify site products by a unique SKU.<br/>
 Developed by VeroLa Srl.
 
 ## Installation
-In order to use this gem you need to install Spree and Spree Social Sales first.
+To use this gem you need to install Spree and Spree Social Sales first.
 
 Add this line to your application's Gemfile:<br/>
 
