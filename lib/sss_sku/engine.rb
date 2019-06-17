@@ -1,9 +1,9 @@
-require 'spree_sku/components'
+require 'sss_sku/components'
 
-module SpreeSku
+module SssSku
   class Engine < ::Rails::Engine
 
-    if spree_backend_available?
+    if spree_available?
     	config.to_prepare do
 	      Dir.glob(File.join(File.dirname(__FILE__), "../../app/**/*_decorator.rb")) do |c|
   	      Rails.configuration.cache_classes ? require(c) : load(c)

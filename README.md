@@ -1,19 +1,18 @@
-# SpreeSku
-Use this gem to automatically generate SKUs that allow you to uniquely identify your products.<br/>
+# Spree-Social-Sales SKU
+Add this gem for automatic SKU generation within SSS.<br>
+Identify site products by a unique SKU.<br/>
 Developed by VeroLa Srl.
 
-## Usage
-If you don't modify spree use this gem directly. In the case you are overriding the new action for products or variants controllers assign the sku to your product or variant by "@product.sku = generate_sku" or "@variant.sku = gnerate_sku" in the new action you are overriding.
-
 ## Installation
-In order to use this gem you need to install spree first.
+In order to use this gem you need to install Spree and Spree Social Sales first.
 
 Add this line to your application's Gemfile:<br/>
-(add it after the line "gem 'spree',...")
 
 ```ruby
-gem 'spree_sku', github: 'MateoLa/spree_sku'
+gem 'sss_sku', github: 'MateoLa/sss_sku'
 ```
+(Must be added after the line "gem 'spree_social_sales', github: 'MateoLa/spree_social_sales'")
+
 
 Then execute:
 ```bash

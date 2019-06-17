@@ -17,7 +17,7 @@ module SpreeSku
 
       var_nr = Spree::Variant.last.id + 1
       user_id = spree_current_user.id
-      sku = sku_start + "-" + var_nr.to_s + "-" + user_id.to_s + "-" + SecureRandom.urlsafe_base64(4)
+      sku = sku_start + "-" + user_id.to_s + "-" + var_nr.to_s + "-" + SecureRandom.urlsafe_base64(4)
   	end
 
   end
