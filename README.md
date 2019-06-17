@@ -1,6 +1,6 @@
-# Spree-Social-Sales SKU
-Add this gem for automatic SKU generation within SSS.<br>
-Identify site products by a unique SKU.<br/>
+# SSS SKU
+Automatic SKU generator for Spree Social Sales (https://github.com/MateoLa/Spree_Social_Sales).<br>
+Identify products and variants by a unique SKU.<br/>
 Developed by VeroLa Srl.
 
 ## Installation
