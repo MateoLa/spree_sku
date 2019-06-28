@@ -1,4 +1,4 @@
-Spree::Account::VariantsController.class_eval do
+Spree::Sss::VariantsController.class_eval do
   include SpreeSku::SkuGeneratorHelper
 
   def new

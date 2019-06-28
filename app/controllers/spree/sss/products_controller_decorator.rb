@@ -1,4 +1,4 @@
-Spree::Account::ProductsController.class_eval do
+Spree::Sss::ProductsController.class_eval do
   include SpreeSku::SkuGeneratorHelper
 
   def new
