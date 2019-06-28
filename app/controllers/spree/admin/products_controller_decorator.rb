@@ -3,7 +3,7 @@ Spree::Admin::ProductsController.class_eval do
 
   def new
     @product = Spree::Product.new
-    @product.sku = generate_sku
+    @product.master.sku = generate_sku
   end
 
 end
